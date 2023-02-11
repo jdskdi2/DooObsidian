@@ -26,12 +26,12 @@ HTML에서 tag는 "\<tag\>", "\</tag\>" 와 같이 <> 사이에 있는 것을 �
 </head>
 
 <body>
-<h1>LG Energy Solution</h1>
-<h2>LG Energy Solution</h2>
-<h3>LG Energy Solution</h3>
-<h4>LG Energy Solution</h4>
-<h5>LG Energy Solution</h1>
-<h6>LG Energy Solution</h1>
+	<h1>LG Energy Solution</h1>
+	<h2>LG Energy Solution</h2>
+	<h3>LG Energy Solution</h3>
+	<h4>LG Energy Solution</h4>
+	<h5>LG Energy Solution</h5>
+	<h6>LG Energy Solution</h6>
 </body>
 ```
 
@@ -44,7 +44,7 @@ HTML에서 tag는 "\<tag\>", "\</tag\>" 와 같이 <> 사이에 있는 것을 �
 ```html
 <strong>HTML</strong> is <u>Hyper Text Markup Language</u>
 ```
-4. 
+3. 
 
 ### 리스트  
 리스트는 2가지로
