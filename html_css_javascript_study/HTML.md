@@ -38,6 +38,20 @@ tag는 "\<tag\>", "\</tag\>" 와 같이 <, > 사용한다.
 </html> <!-- 웹 문서의 끝 -->
 ```
 
+### Semantic Tag
+웹 페이지의 Layout을 나타내기 위한 tag들이다. 
+``` HTML
+<header>
+
+</header>
+<main>
+	<article>
+	
+</main>
+<footer>
+	<section> </section>
+</footer>
+```
 
 ### 텍스트 표시  
 
