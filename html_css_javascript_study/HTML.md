@@ -20,13 +20,14 @@ tag는 "\<tag\>", "\</tag\>" 와 같이 <, > 사용한다.
 
 ### HTML5 문서 구조
 ``` html
-<!DOCTYPE html> <!--> </!-->
-<html lang="ko">
-	<head>
+<!-- This is a comment -->
+<!DOCTYPE html>  <!-- 현재 문서가 HTML5로 작성했다는 것을 의미함 -->
+<html lang="ko"> <!-- 웹 문서의 시작 -->
+	<head> <!-- 웹 문서를 해석하는데 필요한 정보 입력 -->
 		<meta charset="UTF-8">
 		<title> Title </title>
 	</head>
-	<body>
+	<body> <!-- 실제 웹 문서 내용 -->
 		<h1>LG Energy Solution</h1>
 		<h2>LG Energy Solution</h2>
 		<h3>LG Energy Solution</h3>
@@ -34,7 +35,7 @@ tag는 "\<tag\>", "\</tag\>" 와 같이 <, > 사용한다.
 		<h5>LG Energy Solution</h5>
 		<h6>LG Energy Solution</h6>
 	</body>
-</html>
+</html> <!-- 웹 문서의 끝 -->
 ```
 
 
