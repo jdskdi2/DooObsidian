@@ -36,9 +36,11 @@ HTML에서 tag는 "\<tag\>", "\</tag\>" 와 같이 <> 사이에 있는 것을 �
 ```
 
 ### 텍스트 표시  
+
 1. Text Bold
 ```html
 <strong>HTML</strong> is Hyper Text Markup Language
+<b>HTML</b> is Hyper Text Markup Language
 ```
 2. Underline
 ```html
