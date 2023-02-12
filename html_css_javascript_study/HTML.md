@@ -18,6 +18,76 @@ VS code로 HTML5 문서 작성하기
 HTML의 문법은 tag의 사용방법과 같다. tag로 문서의 구조를 만들고, 텍스트의 형태, 멀티미디어 삽입, 표 삽입  등 다양한 동작이 가능하다. 
 tag는 "\<tag\>", "\</tag\>" 와 같이 <, > 사용한다.  
 
+### 텍스트 표시  
+
+1. Text Bold
+```html
+<strong>HTML</strong> is Hyper Text Markup Language
+<b>HTML</b> is Hyper Text Markup Language
+```
+2. Underline
+```html
+<strong>HTML</strong> is <u>Hyper Text Markup Language</u>
+```
+3. Italic
+em: emphasis, i: italic
+```html
+<strong><em>HTML</em></strong> is <u><i>Hyper</i> Text Markup Language</u>
+```
+
+### 리스트  
+리스트는 2가지로
+
+순서 없는 목록은 unordered list tag를 사용한다.
+``` html
+<ul>
+	<li> test 1 </li>
+	<li> test 2 </li>
+	<li> test 3 </li>
+</ul>
+```
+
+순서 있는 목록은 ordered list tag를 사용한다.
+``` html
+<ol>
+	<li> test 1 </li>
+	<li> test 2 </li>
+	<li> test 3 </li>
+</ol>
+```
+
+
+
+### 이미지  
+
+
+### 링크  
+
+
+### 테이블  
+\<table\> \</table\> 태그 안에 \<tr\>, \<td\> 태그가 있어야한다. 
+\<tr\> 태그는 행을 만드는 태그다. 
+\<td\> 태그는 열을 만드는 태그다. 
+
+``` HTML
+<table>
+	<caption> Table Title </caption>
+	<tr>
+		<td> 1행 1열 </td>
+		<td> 1행 2열 </td>
+	</tr>
+	<tr>
+		<td> 2행 1열 </td>
+		<td> 2행 2열 </td>
+	</tr>
+</table>
+```
+
+\<th\> 태그는 제목 행에 셀을 만드는 태그다.
+
+### 멀티미디어 요소 추가하기  
+
+
 ### HTML5 문서 구조
 ``` html
 <!-- This is a comment -->
@@ -42,59 +112,16 @@ tag는 "\<tag\>", "\</tag\>" 와 같이 <, > 사용한다.
 웹 페이지의 Layout을 나타내기 위한 tag들이다. 
 ``` HTML
 <header>
-
+	<nav> </nav>
 </header>
 <main>
+	<aside> </aside>
 	<article>
-	
+		<section> </section>
+	</article>
 </main>
 <footer>
 	<section> </section>
 </footer>
 ```
 
-### 텍스트 표시  
-
-1. Text Bold
-```html
-<strong>HTML</strong> is Hyper Text Markup Language
-<b>HTML</b> is Hyper Text Markup Language
-```
-2. Underline
-```html
-<strong>HTML</strong> is <u>Hyper Text Markup Language</u>
-```
-3. 
-
-### 리스트  
-리스트는 2가지로
-
-순서 없는 목록은 unordered list tag를 사용한다.
-``` html
-<ul>
-<li> test 1 </li>
-<li> test 2 </li>
-<li> test 3 </li>
-</ul>
-```
-
-순서 있는 목록은 ordered list tag를 사용한다.
-``` html
-<ol>
-<li> test 1 </li>
-<li> test 2 </li>
-<li> test 3 </li>
-</ol>
-```
-
-
-### 이미지  
-
-
-### 링크  
-
-
-### 테이블  
-
-
-### 멀티미디어 요소 추가하기  
