@@ -15,25 +15,28 @@ VS code로 HTML5 문서 작성하기
 
 ## Chapter 2 HTML5 기본 요소 
 
-HTML은 tag로 시작해서 tag로 끝난다.  
-HTML에서 tag는 "\<tag\>", "\</tag\>" 와 같이 <> 사이에 있는 것을 말한다.  
+HTML의 문법은 tag의 사용방법과 같다. tag로 문서의 구조를 만들고, 텍스트의 형태, 멀티미디어 삽입, 표 삽입  등 다양한 동작이 가능하다. 
+tag는 "\<tag\>", "\</tag\>" 와 같이 <, > 사용한다.  
 
 ### HTML5 문서 구조
 ``` html
-<!DOCTYPE html>
-<head>
-	<title> Title </title>
-</head>
-
-<body>
-	<h1>LG Energy Solution</h1>
-	<h2>LG Energy Solution</h2>
-	<h3>LG Energy Solution</h3>
-	<h4>LG Energy Solution</h4>
-	<h5>LG Energy Solution</h5>
-	<h6>LG Energy Solution</h6>
-</body>
+<!DOCTYPE html> <!--> </!-->
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title> Title </title>
+	</head>
+	<body>
+		<h1>LG Energy Solution</h1>
+		<h2>LG Energy Solution</h2>
+		<h3>LG Energy Solution</h3>
+		<h4>LG Energy Solution</h4>
+		<h5>LG Energy Solution</h5>
+		<h6>LG Energy Solution</h6>
+	</body>
+</html>
 ```
+
 
 ### 텍스트 표시  
 
