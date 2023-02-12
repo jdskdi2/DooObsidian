@@ -59,10 +59,24 @@ em: emphasis, i: italic
 
 
 ### 이미지  
+\<img src="image file path" alt="text"\>
+src 속성은 이미지 파일의 경로를 나타낸다. 
+alt 속성은 이미지 파일 경로가 이상할 때 대체할 텍스트를 지정한다.
+
+|속성|description|
+|-|-|
+|src|이미지 파일의 경로를 나타냄|
+|alt|이미지 파일 경로가 잘못된 경우 대체할 텍스트 지정|
+|width<br>height|width는 이미지의 너비를, height는 이미지의 높이 지정<br>두개를 모두 사용할 수 있고, 1개만 사용할 수 있음<br>한 개만 사용하는 경우 비율 자동계산됨<br>단위는 px과 %를 사용할 수 있다.|
+
 
 
 ### 링크  
+``` HTML
+<a href="링크할 주소"> 텍스트 또는 이미지 </a>
+```
 
+<a></a>
 
 ### 테이블  
 \<table\> \</table\> 태그 안에 \<tr\>, \<td\> 태그가 있어야한다. 
@@ -84,6 +98,32 @@ em: emphasis, i: italic
 ```
 
 \<th\> 태그는 제목 행에 셀을 만드는 태그다.
+``` HTML
+<table>
+	<caption> 선물용과 가정용 상품 구성 </caption>
+	<tr>
+		<th>용도</th>
+		<th>중량</th>
+		<th>개수</th>
+		<th>가격</th>
+	</tr>
+	<tr>
+		<td>선물용</td>
+		<td>3kg</td>
+		<td>11 ~ 14</td>
+		<td>35,000</td>
+	</tr>
+	<tr>
+		<td>선물용</td>
+		<td>2kg</td>
+		<td>14 ~ 18</td>
+		<td>40,000</td>
+	</tr>
+</table>
+```
+
+
+
 
 ### 멀티미디어 요소 추가하기  
 
