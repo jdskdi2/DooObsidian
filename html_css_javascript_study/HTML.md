@@ -76,7 +76,15 @@ alt 속성은 이미지 파일 경로가 이상할 때 대체할 텍스트를 �
 <a href="링크할 주소"> 텍스트 또는 이미지 </a>
 ```
 
-<a></a>
+\<a\>와 \</a\> 사이에 Text 또는 Image를 넣으면 링크를 만들 수 있다.
+``` HTML
+<a href="www.google.com"><img src="images.jpg" alt="test"></a>
+```
+
+링크 클릭 시 새 탭에서 열기 위해서 target 속성을 지정한다.
+``` HTML
+<a href="www.google.com" target="_blank">Something</a>
+```
 
 ### 테이블  
 \<table\> \</table\> 태그 안에 \<tr\>, \<td\> 태그가 있어야한다. 
