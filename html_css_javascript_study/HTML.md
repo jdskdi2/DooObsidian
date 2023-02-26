@@ -2,23 +2,12 @@ Hyper Text Markup Language
 
 [VScode](./VScode#VScode-설치)
 
-Chapter 1 기초사항  
-
-크롬의 개발자 도구  
-
-VS code 설치  
-
-VS code로 HTML5 문서 작성하기  
-
-구조화된 HTML5 문서 작성  
-
-
-## Chapter 2 HTML5 기본 요소 
+# Chapter 2 HTML5 기본 요소 
 
 HTML의 문법은 tag의 사용방법과 같다. tag로 문서의 구조를 만들고, 텍스트의 형태, 멀티미디어 삽입, 표 삽입  등 다양한 동작이 가능하다. 
 tag는 "\<tag\>", "\</tag\>" 와 같이 <, > 사용한다.  
 
-### 텍스트 표시  
+## 텍스트 표시  
 
 1. Text Bold
 ```html
@@ -35,10 +24,8 @@ em: emphasis, i: italic
 <strong><em>HTML</em></strong> is <u><i>Hyper</i> Text Markup Language</u>
 ```
 
-### 리스트  
-리스트는 2가지로
-
-순서 없는 목록은 unordered list tag를 사용한다.
+## 리스트  
+리스트는 2가지로 순서 없는 목록과 순서 있는 목록이 있다.
 ``` html
 <ul>
 	<li> test 1 </li>
@@ -46,8 +33,6 @@ em: emphasis, i: italic
 	<li> test 3 </li>
 </ul>
 ```
-
-순서 있는 목록은 ordered list tag를 사용한다.
 ``` html
 <ol>
 	<li> test 1 </li>
@@ -56,9 +41,7 @@ em: emphasis, i: italic
 </ol>
 ```
 
-
-
-### 이미지  
+## 이미지  
 ```html
 <img src="image file path" alt="text">
 ```
@@ -73,22 +56,26 @@ alt 속성은 이미지 파일 경로가 이상할 때 대체할 텍스트를 �
 
 
 
-### 링크  
+## 링크  
 ``` HTML
 <a href="링크할 주소"> 텍스트 또는 이미지 </a>
 ```
-
-\<a\>와 \</a\> 사이에 Text 또는 Image를 넣으면 링크를 만들 수 있다.
 ``` HTML
 <a href="www.google.com"><img src="images.jpg" alt="test"></a>
 ```
-
-링크 클릭 시 새 탭에서 열기 위해서 target 속성을 지정한다.
 ``` HTML
 <a href="www.google.com" target="_blank">Something</a>
 ```
 
-### 테이블  
+|target 속성|description|
+|-|-|
+| blank | 새 창이나 새 탭에서 오픈 |
+| self | 현재 프레임에서 오픈(default) |
+| parent | 부모 프레임에서 오픈 |
+| top | 현재 창의 가장 상위 프레임에서 오픈 |
+| frame name | 지정된 프레임에서 오픈 |
+
+## 테이블  
 \<table\> \</table\> 태그 안에 \<tr\>, \<td\> 태그가 있어야한다. 
 \<tr\> 태그는 행을 만드는 태그다. 
 \<td\> 태그는 데이터를 추가하는 태그다. 
@@ -132,10 +119,7 @@ alt 속성은 이미지 파일 경로가 이상할 때 대체할 텍스트를 �
 </table>
 ```
 
-### 멀티미디어 요소 추가하기  
-
-
-### HTML5 문서 구조
+## HTML5 문서 구조
 ``` html
 <!-- This is a comment -->
 <!DOCTYPE html>  <!-- 현재 문서가 HTML5로 작성했다는 것을 의미함 -->
