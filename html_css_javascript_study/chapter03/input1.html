@@ -8,8 +8,41 @@
 </head>
 <body>
 	<form action="input.jsp" method="post">
-		<input type="email" name="mail" value="" /><br />
-		<input type="url" name="url" value="" /><br />
+		email: <input type="email" name="mail" value="" /><br />
+		url: <input type="url" name="url" value="" /><br />
+		전화번호: <input type="tel" name="tel" /><br />
+		색상: <input type="color" name="color" /><br />
+		월: <input type="month" name="month" /><br />
+		날짜: <input type="date" name="date" /><br />
+		<!-- week는 어떻게??  -->
+		주: <input type="month" name="week" /><br />
+		시간: <input type="time" name="time" /><br />
+		지역시간: <input type="datetime-local" name="localdatetime" /><br />
+		숫자: <input type="number" name="num" min="1" max="10" step="2" /><br />
+		범위: <input type="range" name="range" min="1" max="11" step="2" /><br />
+		텍스트: <input type="text" name="text" value="init" /><br />
+		Password: <input type="password" name="pw" value="" /><br />
+		
+		male: <input type="radio" name="rd" value="male" />
+		female: <input type="radio" name="rd" value="female" /><br />
+		
+		과일<br />
+		사과 <input type="checkbox" name="cb" value="apple" checked/>
+		오렌지 <input type="checkbox" name="cb" value="orange" /><br />
+
+		<input type="button" value="Click me" onclick="alert('Hi')" /><br />
+
+		<button type="button" onclick="alert('Hello')">Click</button><br />
+		<button type="button" onclick="alert('Hello img')">
+			<img src="img/vec.jpg" height="10" width="10">
+		</button>
+		<br />
+		<input type="submit" value="Submit" />
+		<input type="reset" value="Reset" />
+	</form>
+
+	<form enctype="multipart/form-data">
+		<input type="file" accept="image/jpg, image/gif">
 	</form>
 	
 </body>
