@@ -1,0 +1,36 @@
+h1 {
+	text-align: center;
+	font-family: "굴림",Gulim;
+	color: green;
+}
+
+h2 {
+	text-shadow: 2px 2px 5px red;
+}
+
+p {
+	font-family: "MD개성체";
+	color: blue;
+	font-size: 1.2em;
+}
+
+ul.contents {
+	background-color: #cce5ff;
+	color: darkblue;
+}
+
+a:link {
+	color: red;
+}
+
+a.reference_class:link {
+	color: gray;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: hotpink;
+}

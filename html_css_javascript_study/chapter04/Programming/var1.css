@@ -1,0 +1,41 @@
+h1, h2 {
+	font-family: "휴먼편지체";
+	font-size: 25pt;
+}
+p>strong, p>em {
+	font-family: "궁서체";
+	font-size: 15pt;
+	font-style: italic;
+}
+
+li {
+	font-family: "휴먼매직체";
+	font-size: 18pt;
+	font-weight: bold;
+	color: red;
+}
+
+div {
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+	margin: 1px 1px 1px 1px;
+}
+
+div:hover {
+	text-shadow: 2px 2px 5px red;
+}
+
+div.color_green {
+	background-color: lightgreen;
+}
+
+div.color_lightpurple {
+	background-color: #ffaeee;
+}
+
+div.color_purple {
+/* 	background-color: rgb(98, 155, 110); */
+	color: white;
+	background-color: purple;
+}

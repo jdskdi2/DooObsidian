@@ -1,0 +1,12 @@
+body {
+	background-color: yellow;
+}
+h1 {
+	color: red;
+}
+p#intro {
+	color: green;
+}
+p#menu{
+	color: blue;
+}
